@@ -2,7 +2,7 @@
   <artifact type="jar" name="COMP352_A1:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/COMP352_A1_jar</output-path>
     <root id="archive" name="COMP352_A1.jar">
-      <element id="module-output" name="COMP352_A1" />
+      <element id="module-output" name="COMP352_A1_BinaryFib" />
     </root>
   </artifact>
 </component>

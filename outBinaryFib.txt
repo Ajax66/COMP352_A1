@@ -1,0 +1,48 @@
+[BinaryFibonacci(5)]
+	Result: 5
+	Time elapsed: 0.000000 seconds
+
+[BinaryFibonacci(10)]
+	Result: 55
+	Time elapsed: 0.000000 seconds
+
+[BinaryFibonacci(15)]
+	Result: 610
+	Time elapsed: 0.000000 seconds
+
+[BinaryFibonacci(20)]
+	Result: 6765
+	Time elapsed: 0.000000 seconds
+
+[BinaryFibonacci(25)]
+	Result: 75025
+	Time elapsed: 0.001000 seconds
+
+[BinaryFibonacci(30)]
+	Result: 832040
+	Time elapsed: 0.003000 seconds
+
+[BinaryFibonacci(35)]
+	Result: 9227465
+	Time elapsed: 0.027000 seconds
+
+[BinaryFibonacci(40)]
+	Result: 102334155
+	Time elapsed: 0.305000 seconds
+
+[BinaryFibonacci(45)]
+	Result: 1134903170
+	Time elapsed: 3.250000 seconds
+
+[BinaryFibonacci(50)]
+	Result: 12586269025
+	Time elapsed: 35.992000 seconds
+
+[BinaryFibonacci(55)]
+	Result: 139583862445
+	Time elapsed: 399.469000 seconds
+
+[BinaryFibonacci(60)]
+	Result: 1548008755920
+	Time elapsed: 4401.421000 seconds
+

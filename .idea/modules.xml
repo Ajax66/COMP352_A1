@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/COMP352_A1.iml" filepath="$PROJECT_DIR$/COMP352_A1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COMP352_A1_BinaryFib.iml" filepath="$PROJECT_DIR$/COMP352_A1_BinaryFib.iml" />
     </modules>
   </component>
 </project>
