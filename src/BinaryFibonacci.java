@@ -1,9 +1,10 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Scanner;
 
 /**
- * This class implements a binary algorithm to generate the fibonacci sequence.
+ * This class implements a binary algorithm to calculate the nth fibonacci number.
  * It then calls the method while incrementing the input and calculates the amount of time it took to run the method.
  */
 public class BinaryFibonacci
@@ -41,6 +42,8 @@ public class BinaryFibonacci
 
         PrintWriter outWriter = null;
         FileWriter fileWriter;
+        Scanner userInput = new Scanner(System.in);
+
         try
         {
             fileWriter = new FileWriter("outBinaryFib.txt");
@@ -52,8 +55,14 @@ public class BinaryFibonacci
             System.exit(1);
         }
 
-        int count = 5;
-        while(count <= 60)
+        System.out.println("The program will iterate through the fibonacci calculator in increments of 5.\n");
+        System.out.print("Enter starting value of n: ");
+        int count = userInput.nextInt();
+
+        System.out.print("\nEnter the max value of n: ");
+        int max = userInput.nextInt();
+
+        while(count <= max)
         {
             binaryFibStartTime = System.currentTimeMillis();
             binaryFibResult = BinaryFib(count);
